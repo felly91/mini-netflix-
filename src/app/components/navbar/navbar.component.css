@@ -1,0 +1,21 @@
+.header {
+  background: #4f151f;
+  color: green
+}
+.links {
+  ul {
+    list-style-type: none;
+  }
+  li a {
+    color:white;
+    transition: color 0.2s;
+    &:hover {
+      text-decoration: none;
+      color: #4180cb;
+    }
+  }
+}
+
+.img-wrapper {
+  max-height: 20em;
+}
